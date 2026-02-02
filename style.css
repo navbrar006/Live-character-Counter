@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+#counter {
+    margin-top: 10px;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.limit-exceed {
+    color: red;
+    font-weight: bold;
+}
